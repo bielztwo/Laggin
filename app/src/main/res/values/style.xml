@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Laggin." parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlHighlight">@color/grey</item>
+        <item name="colorButtonNormal">@color/black</item>
+    </style>
+</resources>

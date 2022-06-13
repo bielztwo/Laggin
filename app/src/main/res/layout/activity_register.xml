@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle_13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle_14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle_13"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:rotation="180"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle_14"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:rotation="180"
+        />
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="410dp"
+        android:layout_height="70dp"
+        android:height="42.3sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:lineHeight="42sp"
+        android:text="Register"
+        android:fontFamily="@font/mavenprosemibold"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:layout_marginTop="90dp"/>
+
+    <LinearLayout
+        android:id="@+id/LL3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/register"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/mavenprosemibold"
+            android:text="Complete your personal data below"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/namalengkap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/mavenproregular"
+            android:text="Nama Lengkap"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/fillname"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:background="@drawable/fillshape"
+            android:fontFamily="@font/mavenpromedium"
+            android:hint="e.g. Andi Purnama"
+            android:paddingLeft="20dp"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/fillemalregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/mavenproregular"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/filledemailregister"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:background="@drawable/fillshape"
+            android:fontFamily="@font/mavenpromedium"
+            android:hint="user@gmail.com"
+            android:paddingLeft="20dp"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/mavenproregular"
+            android:text="Password"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/fillpassword"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:background="@drawable/fillshape"
+            android:fontFamily="@font/mavenpromedium"
+            android:hint="Enter your password"
+            android:paddingLeft="20dp"
+            android:inputType="textPassword"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/confirmpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/mavenproregular"
+            android:text="Confirm Password"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/fillconfirmpassword"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:background="@drawable/fillshape"
+            android:fontFamily="@font/mavenpromedium"
+            android:hint="Enter your password"
+            android:paddingLeft="20dp"
+            android:inputType="textPassword"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/buttonregister"
+            android:layout_width="220dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/fillshape"
+            android:fontFamily="@font/mavenproregular"
+            android:text="Register"
+            android:textColorHint="@color/white"
+            android:theme="@style/Theme.Laggin." />
+
+        <TextView
+            android:id="@+id/log_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:fontFamily="@font/mavenproblack"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="Log in"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
